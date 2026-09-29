@@ -1,0 +1,59 @@
+# ============================================================
+#  Ecos de Quế Sơn — o que vai pro git
+#
+#  O projeto inteiro tem 12 GB. A Library (5,6 GB) o Unity
+#  refaz sozinho, e os pacotes da Asset Store (5,7 GB) você
+#  reinstala pela sua conta da Unity no outro PC — eles voltam
+#  com os MESMOS GUIDs, então a cena reencontra tudo.
+#
+#  Sobra o que é seu: ~670 MB de scripts, cenas, áudio,
+#  modelos e texturas geradas.
+# ============================================================
+
+# ---- gerado pelo Unity: nunca versionar ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+/.vs/
+/.idea/
+/Gravacoes/
+
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.suo
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+crashlytics-build.properties
+
+# builds soltos
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---- Assets: só o que é nosso ----
+# Tudo em Assets/ fica de fora por padrão, e as exceções abaixo
+# entram. Assim, pacote novo que você baixar já nasce ignorado
+# sem precisar mexer aqui.
+/Assets/*
+!/Assets/_Game/
+!/Assets/_Game.meta
+!/Assets/Settings/
+!/Assets/Settings.meta
+!/Assets/Plugins/
+!/Assets/Plugins.meta
+!/Assets/Scenes/
+!/Assets/Scenes.meta
